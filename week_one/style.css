@@ -1,0 +1,118 @@
+/* Any Element With Class Title */
+.title {}
+
+/* any element with id nav */
+#nav {}
+
+/* all div elements */
+div {}
+
+/* all h2 elements */
+h2 {}
+
+p {
+  color: #AAEE00;
+}
+
+/* ------------------------------------------------------------- */
+
+/* true */
+._user-name {}
+
+/* true */
+.-user-name {}
+
+/* false */
+.1user-name {}
+
+/* false */
+.@user-name {}
+
+/* false */
+.user@name {}
+
+/* true */
+._user10name {}
+
+/* true */
+.u {}
+
+/* ------------------------------------------------------------- */
+
+/* bad */
+.USERNAME {}
+
+/* bad */
+.UserName {}
+
+/* good kebab-case */
+.user-name {}
+
+/* good camelCase */
+.userName {}
+
+/* bad */
+.usernameprofile {}
+
+/* ------------------------------------------------------------- */
+
+/* div {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: blueviolet;
+}
+
+.assign-1-shape-2 {
+  background-color: rgba(138, 43, 226, 0.5);
+}
+
+.assign-1-shape-3 {
+  background-color: rgba(138, 43, 226, 0.1);
+} */
+
+/* ------------------------------------------------------------- */
+
+/* div {
+  width: 400px;
+  height: 400px;
+  background-image: url('../assets/css-assignment-5-8.png');
+}
+
+.assign-2-shape-1 {
+  background-repeat: no-repeat;
+}
+
+.assign-2-shape-2 {
+  background-repeat: repeat-y;
+}
+
+.assign-2-shape-3 {
+  background-repeat: repeat-x;
+} */
+
+/* ------------------------------------------------------------- */
+
+div {
+  width: 400px;
+  height: 400px;
+  background-image: url('../assets/css-assignment-5-8.png');
+
+}
+
+.assign-3-shape-1 {
+  background-repeat: no-repeat;
+}
+
+.assign-3-shape-2 {
+  background-repeat: repeat-y;
+  background-position: right 0%;
+}
+
+.assign-3-shape-3 {
+  background-repeat: repeat-x;
+  background-position: 0% 100%;
+}

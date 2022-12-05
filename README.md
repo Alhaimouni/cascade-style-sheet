@@ -1,11 +1,17 @@
 # cascade-style-sheet
 The reference for CSS from Al-Zero, this repo will contain all the lectures and tasks solution.
 
-### LV-2 
 
-
+### LV-1
 ---
+<pre>
+- CSS : is a language for specifying how documents are presented to users — how they are styled.
 
+- document : is usually a text file structured using a markup language — HTML is the most common markup language,but you may also come across other markup languages such as SVG or XML.
+</pre>
+---
+### LV-2 
+---
 <pre>
 selector {
   propertyOne : value;
@@ -78,7 +84,7 @@ and we can fix it using fixed
 
 background-position : val1 , val2
 val1 : the distance from left
-val2 : the distance from right
+val2 : the distance from top
 
 background-size : auto / cover / contain / width,highet
 auto : default value , the original size of image.
@@ -91,6 +97,67 @@ width,highet : we can control the size width and highet as what we want.
 ### LV-7
 ---
 <pre>
+  padding is the internal distance between the content and the border
+  it doesnt take negative values
+  padding : top right bottom left
+  or we can use 
+  padding-top
+  padding-right
+  padding-bottom
+  padding-left
+</pre>
+---
+### LV-8
+---
+<pre>
+  margin
+  - It's the external distance between the element and the other elements.
+  - It takes negative values.
+  - Background-color doesnt contain it .
 
+  ** i can center the element in the screen by using the margin by make it auto , so any extra space will divided by two and give it to each side of the content
+</pre>
+---
+### LV-9
+---
+<pre>
+  Border 
+</pre>
+---
+### LV-10
+---
+<pre>
+  Outline 
+  - create outer line around the element like the border but not calculated in element width or highet.
+  - deprecated i can use the border instade of it with more features i need.
+</pre>
+---
+### LV-11
+---
+<pre>
+  Block
+  - Take Full Width If No Width
+  - Add Line Break
+  - Respect Padding, Margin, Width, Height
+
+  Inline
+  - Do Not Repsepct Width, Height
+  - Respect Padding And Margin [ Just right + Left ]
+  - Do Not Add Line Break
+  - Allow Elements Before And After It in The Same Line
+
+  Inline-Block
+  - Allow Elements Before And After It in The Same Line
+  - Respect Padding, Margin, Width, Height
+</pre>
+---
+### LV-12
+---
+<pre>
+display: none  VS visability: hidden 
+
+if i hide by display the element will be hidden and the next element will be in the hidden element place 
+
+if i hide by visability the element will be hidden but the next element will stay in it's place without moving
 </pre>
 ---
