@@ -1,0 +1,138 @@
+/* div div span {
+  color: red;
+}
+
+div span {
+  color: blue;
+}
+
+.child {
+  color: black;
+}
+
+div p , div{
+  color: rgb(47, 255, 0);
+} */
+
+/* ------------------------------------------------------------- */
+
+/* .box {
+  background-color: brown;
+  color: wheat;
+  max-width: 400px;
+  max-height: 50px ;
+  padding: 10px;
+  margin: 10px;
+  overflow: hidden;
+} */
+
+/* ------------------------------------------------------------- */
+
+/* .shadow {
+  text-transform: capitalize;
+  text-shadow: .25px .25px 0px red , .5px .5px 0px rgb(60, 0, 255), .75px 0.75px 0px rgb(255, 0, 191);
+} */
+
+/* ------------------------------------------------------------- */
+
+/* .one {
+  text-transform: uppercase;
+}
+
+.two {
+  text-transform: capitalize;
+}
+
+.three {
+  text-transform: lowercase;
+} */
+
+/* ------------------------------------------------------------- */
+
+/* div {
+  background-color: #eee;
+  padding: 10px;
+  width: 400px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+} */
+
+/* ------------------------------------------------------------- */
+
+/* body {
+  text-align: center;
+}
+
+a {
+  padding: 10px;
+  text-transform: capitalize;
+  background-color: rgb(0, 150, 136);
+  border-bottom: 5px solid rgb(1, 81, 73);
+  color: white;
+  text-decoration: none;
+} */
+
+/* ------------------------------------------------------------- */
+
+/* div {
+  padding: 50px;
+  border: 2px solid orange;
+  text-align: center;
+  width: 400px;
+}
+
+p {
+  padding: inherit;
+  border: inherit;
+  background-color: #eee;
+} */
+
+/* ------------------------------------------------------------- */
+
+/* .one {
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+.two {
+  font-family:  Georgia, Times, 'Times New Roman', sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.three {
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  text-transform: capitalize;
+} */
+
+/* ------------------------------------------------------------- */
+
+/* html {
+  font-size: 20px;
+}
+
+.one,
+.two,
+.three {
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+
+.one {
+  font-size: 2.5rem;
+}
+
+.two {
+  font-size: 2.0rem;
+}
+
+.three {
+  font-size: 1.5rem;
+} */
+
+/* ------------------------------------------------------------- */

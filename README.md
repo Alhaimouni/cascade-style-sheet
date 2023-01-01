@@ -249,3 +249,22 @@ serif : F but with zwaya
 sans(without)-serif : F as i see it now 
 </pre>
 ---
+### LV-24
+---
+<pre>
+Font size :
+the default size of font is 16px;
+
+em : stand for times which means x1 
+2em = parent font size * 2 
+4em = parent font size * 4 
+
+rem : stand for root times which means x1 
+root is html element font size 
+
+percentage : the size as percent from the parent size
+
+vw : stand for viewport width 1vw = 1% of viewport width 
+1200px width  1vw = 12  5vw= 12*5=60
+</pre>
+---
