@@ -96,7 +96,7 @@ p {
 
 /* ------------------------------------------------------------- */
 
-div {
+/* div {
   width: 400px;
   height: 400px;
   background-image: url('../assets/css-assignment-5-8.png');
@@ -115,4 +115,82 @@ div {
 .assign-3-shape-3 {
   background-repeat: repeat-x;
   background-position: 0% 100%;
+} */
+
+/* ------------------------------------------------------------- */
+
+/* div {
+  width: 400px;
+  height: 400px;
+  background-image: url('../assets/css-assignment-5-8.png');
+}
+
+.assign-4-shape-1 {
+  background-repeat: no-repeat;
+  background-size: 80% 80%;
+}
+
+.assign-4-shape-2 {
+  background-size: 80% 80%;
+  background-repeat: repeat-y;
+  background-position: right bottom;
+}
+
+.assign-4-shape-3 {
+  background-size: 80% 80%;
+  background-repeat: repeat-x;
+  background-position: center bottom;
+}
+
+.assign-4-shape-4 {
+  background-repeat: no-repeat;
+  background-position: right bottom;
+} */
+
+/* ------------------------------------------------------------- */
+
+/* div {
+  display: inline-block;
+  background-color: rgb(212, 212, 212);
+  padding: 20px;
+  border: 5px solid green;
+  outline: 5px solid;
+  margin: 10px;
+}
+
+.Shape-1 {
+  border-color: red;
+}
+
+.Shape-2 {
+  border-color: blue green;
+}
+
+.Shape-3 {
+  border-style: dashed;
+  border-color: red green blue yellow;
+} */
+
+/* ------------------------------------------------------------- */
+
+div {
+  width: 400px;
+  background-color: rgb(212, 212, 212);
+  padding: 5px;
+  border-left: 3px black solid;
+  outline: 5px solid rgb(212, 212, 212);
+  padding-left: 10px;
+  margin: 10px;
+}
+
+.Shape-2 {
+  visibility: hidden;
+}
+
+.Shape-3 {
+  border-left: rgb(0, 150, 136) solid 3px;
+}
+
+.Shape-1 {
+  border-left: rgb(233, 30, 99) solid 3px;
 }

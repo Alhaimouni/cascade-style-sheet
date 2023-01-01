@@ -37,11 +37,11 @@ p {
 ---
 <pre>
   Styles ways :
-  1- external style using link element in the head of html file with rel='stylesheet' and alt will be the path of the outer file
+  1- external style using link element in the head of html file with rel='stylesheet' and alt will be the path of the outer file.
 
-  2- internal style using style element in the head of html
+  2- internal style using style element in the head of html.
 
-  3- inline style using style attribute for the element 
+  3- inline style using style attribute for the element.
 </pre>
 ---
 ### LV-4
@@ -72,7 +72,6 @@ but it has :
 1) no-repeat 
 2) repeat-x
 3) repeat-y
-
 </pre>
 ---
 ### LV-6
@@ -82,16 +81,15 @@ background-attachment :
 default value is scroll to scroll over it 
 and we can fix it using fixed
 
-background-position : val1 , val2
+background-position : val1, val2
 val1 : the distance from left
 val2 : the distance from top
 
-background-size : auto / cover / contain / width,highet
+background-size : auto / cover / contain / width, highet
 auto : default value , the original size of image.
 cover : cover the whole page with allow to crop from image.
 contain : as cover but the whole pic will shown and will not croped.
 width,highet : we can control the size width and highet as what we want.
-
 </pre>
 ---
 ### LV-7
@@ -159,5 +157,95 @@ display: none  VS visability: hidden
 if i hide by display the element will be hidden and the next element will be in the hidden element place 
 
 if i hide by visability the element will be hidden but the next element will stay in it's place without moving
+</pre>
+---
+### LV-17
+---
+<pre>
+Text Shadow:
+
+text-shadow : h-shadow v-shadow blur color
+</pre>
+---
+### LV-18
+---
+<pre>
+Text Alignment:
+  text-align: center / left / right
+  control the text align and doesnt work for handling arabic text
+
+  direction: ltr / rtl 
+  control the direction of the text ltr for english and rtl for arabic 
+
+  vertical-align: middle / top / bottom 
+  control the position of the text virtically 
+
+</pre>
+---
+### LV-19
+---
+<pre>
+  text-decoration: underline / overline / dashed / none /.etc 
+  add some decoration to the text and it's usually doesnt used because psedou element can do more
+  but we use text-decoration:none;  with <a> element to remove the default underline 
+
+  text-transform: uppercase / lowercase / capitalize / .etc
+  uppercase : makes all letters capital
+  lowercase : makes all letters small
+  capitalize : capitalize first letter of each word 
+
+  used to edit in text for examble make all the text capitalized and preferred to use it for control the text not from html
+</pre>
+---
+### LV-20
+---
+<pre>
+text-indent:
+control the space before the text starting
+
+letter-spacing:
+control the distance between letters
+
+word-spacing:
+control the space between words
+
+line-hieght:
+control the distance between lines and the best percent is 160% for reading
+
+white-space:
+control the text behavior if it over flow an element 
+white-space:normal / nowrap;
+normal : default value , the over flow text will go down and the element highet increase.
+nowrap : the text will over flow the element
+
+word-break :
+control the behavior of word overflow (if the word it self long as links)
+word-break: normal / break-word / break-all;
+normal : default value, doesnt effect.
+break-word : break the word to avoid over flow
+break-all : break all thing
+</pre>
+---
+### LV-21
+---
+<pre>
+text-overflow : ellipsis 
+
+if the text flow over the element and i use overflow : hidden 
+it will cut the overflow but if i use text-overflow : ellipsis  with it, 
+it will show ... at the end to tell that there is somthing croped
+
+</pre>
+---
+### LV-23
+---
+<pre>
+Font families :
+font-family: Arial, Cairo, sans-serif;
+cairo  here is fallback font family to make sure that there is alternate if arial is not uploaded
+
+you can use any safe font from the default or upload it from google fonts.
+serif : F but with zwaya 
+sans(without)-serif : F as i see it now 
 </pre>
 ---
