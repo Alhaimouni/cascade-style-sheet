@@ -1,0 +1,109 @@
+/* .red,
+.green,
+.blue,
+.black {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+.red {
+  background-color: red;
+  z-index: 2;
+  top: 60px;
+  left: 60px;
+}
+
+.green {
+  background-color: green;
+  z-index: 1;
+  top: 40px;
+  left: 40px;
+}
+
+.blue {
+  background-color: blue;
+  z-index: 0;
+  top: 20px;
+  left: 20px;
+}
+
+.black {
+  background-color: black;
+  top: 100px;
+  left: 20px;
+} */
+
+/* ------------------------------------------------------------- */
+
+/* body div {
+  width: 400px;
+  margin: auto;
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+  border: 3px solid rgb(11, 142, 185);
+  border-top: red 3px solid;
+  border-bottom: red 3px solid;
+  position: relative;
+  font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+div span {
+  width: 25px;
+  height: 15px;
+  background-color: rgb(11, 142, 185);
+  color: white;
+  position: absolute;
+  padding: 5px;
+}
+
+.top-left {
+  left: -18.5px;
+  top: -12.5px;
+  border-right: 2px solid red;
+}
+
+.bottom-left{
+  left: -18.5px;
+  bottom: -12.5px;
+  border-right: 2px solid red;
+}
+
+.top-right {
+  right: -18.5px;
+  top: -12.5px;
+  border-left: 2px solid red;
+}
+
+.bottom-right {
+  right: -18.5px;
+  bottom: -12.5px;
+  border-left: 2px solid red;
+} */
+
+/* ------------------------------------------------------------- */
+ul {
+  list-style: none;
+}
+
+ul li {
+  background-color: #eee;
+  padding: 10px;
+  margin: 20px;
+}
+
+ul li ol li {
+  list-style-type: georgian;
+}
+
+ul li ol li {
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+}
+
+ul li ul li {
+  background-color: rgb(255, 255, 255);
+  list-style-position: inside;
+  list-style-type: circle;
+}

@@ -214,7 +214,7 @@ control the distance between lines and the best percent is 160% for reading
 
 white-space:
 control the text behavior if it over flow an element 
-white-space:normal / nowrap;
+white-space : normal / nowrap;
 normal : default value , the over flow text will go down and the element highet increase.
 nowrap : the text will over flow the element
 
@@ -266,5 +266,36 @@ percentage : the size as percent from the parent size
 
 vw : stand for viewport width 1vw = 1% of viewport width 
 1200px width  1vw = 12  5vw= 12*5=60
+</pre>
+---
+### LV-30
+---
+<pre>
+  Position : static / relative / absolute / fixed / sticky
+
+  static : default value, cant move the element using position dimentions (top,bottom,left,right).
+  relative : moving the element based on itself ( if i say top:20px it will move from it top to bottom by 20px),
+  and if any elemnt after it will not move with it also.
+  absolute : using absolute the element will be out of the workflow, 
+  (the place will be gone and the next element will take the space as display none).
+  and if i say bottom 0px the element will be at the bottom of parent element (if parent is relative)
+  fixed : the same as absolute but if u scroll the element will be in place.
+  sticky : stick in place (if i say top :20px it will stick at 20px from the top)
+</pre>
+---
+### LV-31
+---
+<pre>
+  Z-index :
+  used to make elemnt shown above other 
+  and it doesnt work without position 
+</pre>
+---
+### LV-32
+---
+<pre>
+  Z-index :
+  used to make elemnt shown above other 
+  and it doesnt work without position 
 </pre>
 ---
