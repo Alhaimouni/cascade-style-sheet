@@ -299,3 +299,41 @@ vw : stand for viewport width 1vw = 1% of viewport width
   and it doesnt work without position 
 </pre>
 ---
+### LV-34
+---
+<pre>
+  Pseudo Classes :
+  :hover for hover effect
+  :visited for visited ancors 
+  :checked for checkbox input feild 
+  :focus for pressing at form input feild
+</pre>
+---
+### LV-35
+---
+<pre>
+  Pseudo elemets:
+  we use :: for pseudo elements to understand its not pseudo class
+  .anything::first-letter in this way i can control the first letter without put it in a span
+  .anything::first-line in this way i can control the first line
+  .anything::selector in this way i can control the seleciton effect
+
+  Note : i can use these in general as ::selector   and applied for every thing not for a spicific element
+</pre>
+---
+### LV-36
+---
+<pre>
+  Pseudo elemets:
+  when we use ::before and ::after 
+  we must add a property called content or they will not work
+</pre>
+---
+### LV-40
+---
+<pre>
+Box-shadow :
+
+box-shadow : h-shadow v-shadow blur spread color position(inside,outside)
+</pre>
+---
