@@ -337,3 +337,78 @@ Box-shadow :
 box-shadow : h-shadow v-shadow blur spread color position(inside,outside)
 </pre>
 ---
+### LV-42
+---
+<pre>
+Transition
+
+transition-duration : the time we need to the process 
+transition-delay : the time we need to start after 
+transition-property : the properties we need to appply transition duration and delay at ( default value is all )
+example : transition-property : margin-left, background-color ;
+
+timing-function : the time curve 
+ease : default value (slow - fast - slow)
+liner :  (same speed all the time)
+ease-in : (slow - fast - fast)
+ease-out : (fast - fast - slow )
+
+there is shorthand for transition :D
+</pre>
+---
+### LV-44
+---
+<pre>
+  Margin Collapse
+
+  [1] Only Vertical Margin Collapse
+  [2] Bigger Margin Wins
+  [3] Margin Collapsing With Elements Without Anything Between
+  [4] Nesting Does Not Prevent Collapse
+</pre>
+---
+### LV-45
+---
+<pre>
+  CSS Variables
+  
+  there are two types ( Global & local variables)
+  Global variables are common to use 
+
+  how to declare ? 
+  :root {
+    --haimouniColor : blue;
+    --myPadding : 20px;
+  }
+
+  how to use ?
+  we can use it using
+  var(variableName,fallback value)
+  as shown below
+
+  div {
+    color : var(--haimouniColor,red)
+  }
+</pre>
+---
+### LV-46/53
+---
+<pre>
+  Flexible Box
+  For Parent
+  - display: flex => To Start Flexible Box
+  - flex-direction: row => Default Value
+  - flex-wrap: nowrap => Default Value
+  - flex-flow: [Flex-Direction] + [Flex-Wrap]
+  - justify-content: flex-start => Default Value
+  - align-items: stretch => Default Value
+  - align-content: stretch => Default Value
+  For Child
+  - flex-grow: 0 => Default Value
+  - flex-shrink: 1 => Default Value
+  - order: 0 => Default Value
+  - flex-basis: auto => Default Value
+  - flex: [Flex Grow] [Flex Shrink] [Flex Basis] 0 1 Auto
+</pre>
+---
+
