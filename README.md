@@ -411,4 +411,195 @@ there is shorthand for transition :D
   - flex: [Flex Grow] [Flex Shrink] [Flex Basis] 0 1 Auto
 </pre>
 ---
+### LV-54
+---
+<pre>
+  Filters 
+  used to add filter for images 
+  filter : blur / grayscale
+  blue : in percent or pexle 
+  gryscale : if 100% the image will be black and white if 0 image with original colors
+</pre>
+---
+### LV-55
+---
+<pre>
+  Gradients
+  it used as background image
+  background-image : linear-gradient(Direction || Angle, Color Stop 1, Color Stop 2, ....)
+
+  direction : i can say to left / to right / to top / to bottom 
+  or control it by degree angle (0deg = to top)
+
+    background-image: linear-gradient(
+    to right,
+    #2980b9 20%,
+    #27ae60 20%,  //start
+    #27ae60 40%,  //stop
+    #d35400 40%,
+    #d35400 60%,
+    #8e44ad 60%,
+    #8e44ad 80%,
+    #c0392b 80%
+  );
+</pre>
+---
+### LV-56
+---
+<pre>
+  Caret color 
+  its the dash color inside the input feild
+
+  Pointer-event 
+  it used to control what i can do with element 
+  if i say pointer-event : none the thing will lost his event apilities
+</pre>
+---
+### LV-57
+---
+<pre>
+  Grid
+
+  Parent
+  - display: grid | inline-grid
+  - grid-template-columns: [Number Of Columns In] => [Px, %, Auto, Fraction, Repeat, Mix]
+  - grid-template-rows: [Number Of Rows In] => [Px, %, Auto, Fraction, Repeat, Mix]
+  - gap: [Row Gap] [Column Gap]
+  - justify-content
+  - align-content
+  - grid-template-areas
+  
+  Child
+  - grid-column: [Grid-Column-Start] [Grid-Column-End]
+  - grid-row: [Grid-Row-Start] [Grid-Row-End]
+  - grid-area: [Grid-Row-Start] [Grid-Column-Start] [Grid-Row-End] [Grid-Column-End]
+
+  how to specify the grid columns 
+  using grid-template-columns 
+  grid-template-columns : column1 column2 column3 ...etc 
+  sizing and dimentions : [Px, %, Auto, fr, Repeat(), mix]
+  repeat work like this 
+  grid-template-columns : Repeat(3,200px)    // this means i need 3 coulmns each one is 200px
+
+  difrance between auto and fr 
+  (fr is greedy) so if i did this 
+  grid-template-columns: auto 1fr;
+  // the first column width will be the minimum width to fit the content and the second column will take the whole space 
+  // not (50/50 as i expected)
+
+
+</pre>
+---
+### LV-58
+---
+<pre>
+  Grid - Parent - Template Rows And Gap
+
+  grid-template-rows : to specify the rows as the columns exactly 
+  gap : to control the space between columns and rows
+  gap : rowGap columnGap
+</pre>
+---
+### LV-60
+---
+<pre>
+Create page layout using grid
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS</title>
+    <link rel="stylesheet" href="css/master.css" />
+  </head>
+  <body>
+    <div class="page">
+      <h2>Elzero</h2>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+      <section>Content</section>
+      <aside>Sidebar</aside>
+      <footer>Footer</footer>
+    </div>
+  </body>
+</html> -->
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+}
+.page {
+  height: 100vh;
+  background-color: #eee;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 50px auto 50px;
+  grid-template-areas:
+    "logo logo nav nav nav nav nav nav nav nav"
+    "cont cont cont cont cont cont cont . side side"
+    "foot foot foot foot foot foot foot foot foot foot";
+}
+
+//dot to create empty place
+
+h2 {
+  grid-area: logo;
+  background-color: red;
+  color: white;
+}
+nav {
+  grid-area: nav;
+  background-color: blue;
+  color: white;
+}
+section {
+  grid-area: cont;
+  background-color: yellow;
+  color: white;
+}
+aside {
+  grid-area: side;
+  background-color: green;
+  color: white;
+}
+footer {
+  grid-area: foot;
+  background-color: black;
+  color: white;
+}
+</pre>
+---
+### LV-61
+---
+<pre>
+  Grid - Child - Grid Column & Grid Row
+
+  suppose i have a grid has 6 columns and 3 rows 
+
+  grid-column : is the short hand for grid-column-start(included) and grid-column-end(excluded)
+
+  grid-column : 1/7 (the child will take the 6 columns width)
+   grid-column-start: 1 start from the first coulmn
+   grid-column-end: 7 end at the start of 7th column (end of 6th)
+
+  grid-column : 1/8 (the child will make the parent grid wrong)
+  grid-column : span 6 (the child will take the 6 columns width)
+
+</pre>
+---
+
+
 
