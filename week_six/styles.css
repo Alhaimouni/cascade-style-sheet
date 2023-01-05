@@ -1,0 +1,252 @@
+/* * {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+:root {
+  --color: #ddd
+}
+
+.grid {
+  background-color: var(--color);
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+  margin: 150px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 4fr;
+  gap: 20px 20px;
+  counter-reset: 'meow';
+}
+
+.grid div {
+  background-color: #607D8B;
+  counter-increment: meow;
+  display: flex;
+  justify-content: center;
+}
+
+.grid div::before {
+  content: 'Element 'counter(meow);
+  color: white;
+  font-family: Arial, sans-serif;
+  align-self: center;
+} */
+
+/*------------------------------------------------------------*/
+
+/* .layout {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  background-color: #eee;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 50px auto 50px;
+  grid-template-areas:
+    'head head head head head'
+    'main main main main aside'
+    'footer footer footer footer footer';
+}
+
+header {
+  grid-area: head;
+  grid-area: 1/1/2/6;
+  background-color: #03A9F4;
+}
+
+section {
+  grid-area: main;
+  grid-area: 2/1/3/5;
+  background-color: #FF5722;
+}
+
+aside {
+  grid-area: aside;
+  grid-area: 2/5/3/6;
+  background-color: #607D8B;
+}
+
+footer {
+  grid-area: footer;
+  grid-area: 3/1/4/6;
+  background-color: #009688;
+}
+
+::before {
+  color: white;
+  padding: 20px;
+  display: inline-block;
+}
+
+header::before {
+  content: "header";
+}
+
+section::before {
+  content: "section";
+}
+
+aside::before {
+  content: "aside";
+}
+
+footer::before {
+  content: "footer";
+} */
+
+/*------------------------------------------------------------*/
+
+/* .grid {
+  background-color: #ddd;
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: auto 1fr 1fr auto;
+  grid-template-rows: 1fr auto ;
+  gap: 20px 20px;
+}
+
+.grid div {
+  background-color: #403F3F;
+  color: white;
+  display: flex;
+  font-weight: bold;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+} */
+
+/*------------------------------------------------------------*/
+
+/* .grid {
+  background-color: #ddd;
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.grid div {
+  background-color: #2196F3;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.one {
+  grid-area: 6/1/7/4;
+}
+
+.two {
+  grid-area: 2/1/3/3;
+}
+
+.five {
+  grid-area: 3/2/span 3/span 2
+}
+
+.eight {
+  grid-area: 1/1/2/4;
+} */
+
+/*------------------------------------------------------------*/
+
+/* .grid {
+  background-color: #ddd;
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 350px);
+  justify-content: space-around;
+  align-content: space-between;
+}
+
+.grid div {
+  background-color: #E91E63;
+  color: white;
+  text-align: center;
+} */
+
+/*------------------------------------------------------------*/
+
+/* .grid {
+  background-color: #ddd;
+  padding: 50px;
+  width: 1000px;
+  height: 100vh;
+  margin: auto;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr) 0.5fr;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px 20px;
+}
+
+.grid div {
+  border-bottom: 3px solid red;
+  position: relative;
+}
+
+.grid div::after {
+  content: '';
+  background-color: #ddd;
+  width: 0.5em;
+  height: 0.5em;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 1px 3px 2px 5px;
+}
+
+.one,
+.two,
+.three {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.ten {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+}
+
+.job {
+  color: #ddd;
+}
+
+.one {
+  grid-area: 1/4/4/5;
+}
+
+.two {
+  grid-area: 2/2/span 1/span 2;
+}
+
+.three {
+  grid-area: 4/2/span 1/span 1;
+}
+
+.four {
+  grid-area: 1/1/span 2/span 1;
+}
+
+.five {
+  grid-area: 1/2/span 1/span 1;
+} */
