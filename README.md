@@ -600,6 +600,69 @@ footer {
 
 </pre>
 ---
+### LV-65/69
+---
+<pre>
+  Transform
+
+  scale() : to multiply element size as stretch
+
+  scale(x-axis,y-axis)
+  scale(xy-axis)
+  if i use one value it takes it for x and y axises
+
+  rotate() : to rotate the element around it self
+  rotate(angle by degree, rad , turn)
+
+  translate() : we use it to move the element on x and y axises 
+  translate(x-axis,y-axis)
+  translate(x-axis)
+  translate(0,y-axis)
+  if i use one value it dosent take it for x and y axises
+
+  skew() : we use it to rotate the element angles on x and y axises
+  skew(x-axis,y-axis)
+  skew(x-axis)
+  skew(0,y-axis)
+  if i use one value it dosent take it for x and y axises
+
+  matrix() : to do all in one 
+  matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())
+
+
+  transform: matrix(1.2, 0.2679, 0, 1.2, 20, 20);
+  transform: translateX(20px) translateY(20px) scaleX(1.2) skewY(15deg) skewX(0deg) scaleY(1.2);
+</pre>
+---
+### LV-70
+---
+<pre>
+  transform-origin
+
+  Syntax
+  Default Values => 50% 50% 0
+  2D Transform => transform-origin(X, Y)
+  3D Transform => transform-origin(X, Y, Z)
+  
+  X-Axis
+  - CSS Unit [px, em, rem]
+  - %
+  - Keyword
+  -- Left = 0%
+  -- Center = 50%
+  -- Right = 100%
+
+  Y-Axis
+  - CSS Unit [px, em, rem]
+  - %
+  - Keyword
+  -- Top = 0%
+  -- Center = 50%
+  -- Bottom = 100%
+</pre>
+---
+
+
 
 
 
