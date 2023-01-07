@@ -661,7 +661,116 @@ footer {
   -- Bottom = 100%
 </pre>
 ---
+### LV-74/77
+---
+<pre>
+  Animation
 
+  create animation 
+
+    we use keyframes then type the name of animation
+
+      @keyframes change-color {
+      0% {
+        background-color: red;
+      }
+      60% {
+        background-color: blue;
+      }
+      100% {
+        background-color: black;
+      }
+    }
+
+  use the animation 
+
+
+    animation-name to select the animation
+
+    animation-duration for the time.
+      the time will be divided as the animation time periods when we created the animation  0-60-100
+      so for 10sec duration it will be 6sec red 4 sec blue and it will stop on black
+
+    animation-iteration-count: for repeat the animation cycle i can select (infinate)
+
+    animation-timing-function: linear / ease /ease in /ease out  to control timing curve
+
+    animation-Direction : normal(default)/ reverse/ alternate/ alternate-reverse
+
+    animation-delay : to delay the start (if i use positive number)
+    or to start from a spicific time (if i use nigative number as crop from the animation time)
+
+    animation-fill-mode : none/ forwards/ backwards/ both 
+      used to apply a frame after the animation ends 
+      it depends on the animation-direction also
+
+    animation-play-state: running(default)/ pasued
+      we can use it with hover if i hover at the element to pause the animation
+
+      div {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        animation-name: change-color;
+        animation-duration: 10s;
+      }
+
+</pre>
+---
+### LV-78/82
+---
+<pre>
+  CSS Selectors
+
+  - *
+  - Element => [p, div, h2]
+  - Element OtherElement => div p
+  - .class-name
+  - #id-name
+  - .parent .child
+  - .class-one.class-two
+  - .class-name div, .class-name p
+  - Element.class-name => p.class-name
+  - .parent > .child => Direct Child
+  - -------------------------------------
+  - Element + Other Element => [div + p]
+  - Element ~ Other Elements => [p ~ div]
+  - [Attribute]
+  - Element[Attribute]
+  - [Attribute=Value]
+  - Element[Attribute=Value] => input[type="submit"]
+  - [Attribute~=Value] => Contains A Word
+  - [Attribute*=Value] => Contains A Atring
+  - [Attribute^=Value] => Start With A String
+  - -------------------------------------
+  - :first-child
+  - :last-child
+  - :first-of-type
+  - :last-of-type
+  - :only-child
+  - -------------------------------------
+  - :not(Selectors)
+  - :nth-child(n)
+  - :nth-last-child(n)
+  - :nth-of-type(n)
+  - :nth-last-of-type(n)
+  - -------------------------------------
+  - :root
+  - :empty
+  - ::selection
+  - :checked
+  - :disabled
+  - :required
+  - :focus
+  - ::placeholder
+</pre>
+---
+### LV-83/88
+---
+<pre>
+
+</pre>
+---
 
 
 
