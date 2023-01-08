@@ -1,0 +1,161 @@
+/* div {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  position: relative;
+  z-index: 5;
+  border: 2px solid orange;
+  border-radius: 50%;
+  border-left: transparent 2px solid;
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+div::before {
+  content: '';
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  position: absolute;
+  border: 2px solid rgb(247, 0, 255);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  border-top: transparent 2px solid;
+}
+
+div::after {
+  content: '';
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  position: absolute;
+  border: 2px solid rgb(0, 187, 255);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  border-right: transparent 2px solid;
+}
+
+div:hover {
+  animation-play-state: paused;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+ */
+
+/*------------------------------------------------------------*/
+
+/* div {
+  width: 50px;
+  height: 50px;
+  margin: 20px auto;
+  position: relative;
+  border: 4px solid rgb(36, 180, 255);
+  border-radius: 50%;
+  border-bottom: 4px solid transparent;
+  animation-name: spin;
+  animation-duration: 1000ms;
+  animation-timing-function: linear;
+  animation-play-state: paused;
+  animation-iteration-count: infinite;
+}
+
+div::before {
+  content: '';
+  width: calc(100% + 12px);
+  height: calc(100% + 12px);
+  position: absolute;
+  z-index: -11;
+  border: 4px solid rgb(252, 144, 0);
+  left: calc(50% - (35px));
+  top: calc(50% - (35px));
+  border-radius: 50%;
+  border-bottom: 4px solid transparent;
+  animation-name: spin;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  animation-delay: 200ms;
+  animation-play-state: paused;
+
+}
+
+div::after {
+  content: '';
+  width: calc(100% + 24px);
+  height: calc(100% + 24px);
+  position: absolute;
+  z-index: -12;
+  border: 4px solid black;
+  left: calc(50% - (41px));
+  top: calc(50% - (41px));
+  border-radius: 50%;
+  border-bottom: 4px solid transparent;
+  animation-name: spin;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  animation-play-state: paused;
+  animation-delay: 400ms;
+
+}
+
+div:hover::after,
+div:hover::before,
+div:hover {
+  animation-play-state: running;
+}
+
+
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+/*------------------------------------------------------------*/
+
+
+/* span {
+  width: 50px;
+  height: 50px;
+  background-color: #eee;
+  border: 5px solid black;
+  border-bottom: 5px solid transparent;
+  border-radius: 50%;
+  display: block;
+  animation-name: loading;
+  animation-play-state: running;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: linear;
+}
+
+@keyframes loading {
+
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+} */
