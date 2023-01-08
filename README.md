@@ -733,7 +733,7 @@ footer {
   - Element.class-name => p.class-name
   - .parent > .child => Direct Child
   - -------------------------------------
-  - Element + Other Element => [div + p]
+  - Element + Other Element => [div + p]  the syle will be for the other element [ p ] in this case
   - Element ~ Other Elements => [p ~ div]
   - [Attribute]
   - Element[Attribute]
@@ -743,7 +743,7 @@ footer {
   - [Attribute*=Value] => Contains A Atring
   - [Attribute^=Value] => Start With A String
   - -------------------------------------
-  - :first-child
+  - :first-child  div:first-child i look for a div if its first child for any
   - :last-child
   - :first-of-type
   - :last-of-type

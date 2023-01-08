@@ -132,30 +132,3 @@ div:hover {
 
 /*------------------------------------------------------------*/
 
-
-/* span {
-  width: 50px;
-  height: 50px;
-  background-color: #eee;
-  border: 5px solid black;
-  border-bottom: 5px solid transparent;
-  border-radius: 50%;
-  display: block;
-  animation-name: loading;
-  animation-play-state: running;
-  animation-duration: 1000ms;
-  animation-iteration-count: infinite;
-  animation-direction: reverse;
-  animation-timing-function: linear;
-}
-
-@keyframes loading {
-
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-} */
