@@ -132,3 +132,16 @@ div:hover {
 
 /*------------------------------------------------------------*/
 
+
+
+@media (min-width:900px) {
+  body {
+    color : blue;
+  }
+}
+
+@media (min-width:1000px) {
+  body {
+    color : red;
+  }
+}

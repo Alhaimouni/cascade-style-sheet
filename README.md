@@ -768,7 +768,27 @@ footer {
 ### LV-83/88
 ---
 <pre>
+  Media Queries
 
+    how to use media-queries 
+    1- in css file i can do @media condition {
+
+    }
+      Note : its recomanded to place media with styles
+
+    2- in html inside style tag
+    3- seperated css file 
+
+
+    example apply red color in body if the width is more than 1000px and less than 1500 px
+
+    @media (min-width:1000px) and (max-width:1500px) {
+      body {
+        color : red;
+      }
+    }
+
+    
 </pre>
 ---
 
