@@ -733,8 +733,8 @@ footer {
   - Element.class-name => p.class-name
   - .parent > .child => Direct Child
   - -------------------------------------
-  - Element + Other Element => [div + p]  the syle will be for the other element [ p ] in this case
-  - Element ~ Other Elements => [p ~ div]
+  - Element + Other Element => [div + p] (next element) the syle will be for the other element [ p ] in this case
+  - Element ~ Other Elements => [p ~ div] (same level elements any div under this p)
   - [Attribute]
   - Element[Attribute]
   - [Attribute=Value]
