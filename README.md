@@ -328,6 +328,36 @@ vw : stand for viewport width 1vw = 1% of viewport width
   when we use ::before and ::after 
   we must add a property called content or they will not work
 </pre>
+<pre>
+  p {
+  background-color: bisque;
+  width: 200px;
+  text-align: center;
+  vertical-align: middle;
+  height: 25px;
+  position: relative;
+}
+
+p::before {
+  content: "";
+  width: 20px;
+  height: 25px;
+  background-color: brown;
+  position: absolute;
+  left: 0px;
+  top:10px;
+}
+
+p::after {
+  content: "";
+  width: 20px;
+  height: 25px;
+  background-color: rgb(42, 165, 61);
+  position: absolute;
+  right: 0px;
+  bottom: 10px;
+}
+</pre>
 ---
 ### LV-40
 ---
