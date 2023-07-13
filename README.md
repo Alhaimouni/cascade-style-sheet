@@ -439,6 +439,7 @@ there is shorthand for transition :D
   - order: 0 => Default Value
   - flex-basis: auto => Default Value
   - flex: [Flex Grow] [Flex Shrink] [Flex Basis] 0 1 Auto
+  - align-self
 </pre>
 ---
 ### LV-54
