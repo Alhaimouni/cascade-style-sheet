@@ -518,7 +518,7 @@ there is shorthand for transition :D
   // the first column width will be the minimum width to fit the content and the second column will take the whole space 
   // not (50/50 as i expected)
 
-
+  //create responsive grid columns we can use : repeat(auto-fill, minMax('min-col-width', 1fr));
 </pre>
 ---
 ### LV-58
